@@ -3,9 +3,9 @@
 
 echo "SETUID Files in /usr"
 echo "--------------------"
-find /usr -type f -perm 4000 -ls
+find /usr -type f -perm -4000 -ls
 
 echo 
 echo "SETUID Files in /usr"
 echo "--------------------"
-find /usr -type f -perm 2000 -ls
+find /usr -type f -perm -2000 -ls
